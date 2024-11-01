@@ -1,0 +1,36 @@
+@charset "utf-8";
+/**
+ * $LastChangedDate: 2010-05-17 23:31:34 -0500 (Mon, 17 May 2010) $
+ */
+
+/* Button */
+div#wpLoadingButton {
+	padding-top: 1em;
+}
+div#wpLoadingButton:hover	{
+}
+
+	div#wpLoadingButton span {
+		float: left;
+		height: 16px;
+		font-weight: bold;
+		vertical-align: middle;
+	}
+	div#wpLoadingButton span#wpPageRizeLoading {
+		padding-right: 5px;
+	}
+
+div.wpPageRize {
+	padding-top: 1em;
+}
+
+	div.wpPageRize span#wpPageRizeLoading {
+		cursor: pointer;
+	}
+
+	div.wpPageRize p {
+	}
+
+		div.wpPageRize p span,
+		div.wpPageRize p a {
+		}
